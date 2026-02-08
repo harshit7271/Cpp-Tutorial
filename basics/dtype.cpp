@@ -3,7 +3,7 @@
 int main()
 {
     // integer (whole number)
-    int age = 24;
+    int age = 23;
     int year = 2026;
     int days = 8.5;
 
@@ -21,10 +21,16 @@ int main()
     bool student = true;
     bool power = false;
 
-    std::cout << age << '\n';      // 8
-    std::cout << price << '\n';    // 11.23
-    std::cout << currency << '\n'; // G
-    std::cout << power << '\n';    // 0
+    // string (object that represent a sequence of text)
+    std::string name = "Garima";
+    std::string herNature = "Loving as fuck";
+
+    std::cout << age << '\n';            // 8
+    std::cout << price << '\n';          // 11.23
+    std::cout << currency << '\n';       // G
+    std::cout << power << '\n';          // 0
+    std::cout << name << '\n';           // Garima
+    std::cout << herNature << std::endl; // Loving as fuck
 
     return 0;
 }
