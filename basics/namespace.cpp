@@ -12,10 +12,12 @@ namespace second
 
 int main()
 {
-    int x = 20;
+
+    using namespace first;
+
     std::cout << x << '\n';
-    std::cout << first::x << '\n';
     std::cout << second::x << '\n';
+
     return 0;
 }
 
